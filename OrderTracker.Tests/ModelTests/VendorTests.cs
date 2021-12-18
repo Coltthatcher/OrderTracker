@@ -23,13 +23,11 @@ namespace OrderTracker.Tests
     [TestMethod]
     public void GetNameAndDescription_ReturnNameAndDescription_StringString()
     {
-      Vendor newVendor = new Vendor("Vendor", "description");
-      Assert.AreEqual(typeof(Order), newVendor.GetType());
-      /*string description = "no";
+      string description = "no";
       string name = "go";
       Vendor newVendor = new Vendor(name, description);
       string result = newVendor.Name;
-      Assert.AreEqual(name,result);*/
+      Assert.AreEqual(name,result);
     }
 
   }
