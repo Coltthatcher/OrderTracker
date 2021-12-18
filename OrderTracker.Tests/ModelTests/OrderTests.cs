@@ -24,7 +24,7 @@ namespace OrderTracker.Tests
     public void GetTitle_ReturnTitle_String()
     {
       string Title = "Title";
-      Order newOrder = new Order("test Order", "description", 4, "");
+      Order newOrder = new Order(Title, "description", 4, "");
       string result = newOrder.Title;
       Assert.AreEqual(Title, result);
 
