@@ -30,5 +30,14 @@ namespace OrderTracker.Tests
       Assert.AreEqual(name,result);
     }
 
+    [TestMethod]
+    public void GetId_ReturnID_int()
+    {
+      string description = "no";
+      string name = "go";
+      Vendor newVendor = new Vendor(name, description);
+      int result = newVendor.Id;
+      Assert.AreEqual(name,result);
+    }
   }
 }
