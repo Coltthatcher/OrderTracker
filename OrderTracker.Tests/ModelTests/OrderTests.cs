@@ -103,7 +103,7 @@ namespace OrderTracker.Tests
       string Date2 = "Date";
       Order newOrder1 = new Order(name1, description1, Price1, Date1);
       Order newOrder2 = new Order(name2, description2, Price2, Date2);
-      Order result = Order.Find(3);
+      Order result = Order.Find(2);
       Assert.AreEqual(newOrder2, result);
     }
 
