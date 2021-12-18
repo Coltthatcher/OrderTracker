@@ -8,5 +8,6 @@ namespace OrderTracker.Tests
   [TestClass]
   public class VendorTests : IDisposable 
   {
+    
   }
 }
