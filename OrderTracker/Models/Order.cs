@@ -12,7 +12,15 @@ namespace OrderTracker.Models
 
     private static List<Order> _orders = new List<Order> {};
 
-    
+    public Order(string title, string description, int price, string date)
+    {
+      Title = title;
+      Description = description;
+      Price = price;
+      Date = date;
+      _orders.Add(this);
+      Id = _orders.Count;
+    }
 
 
   }

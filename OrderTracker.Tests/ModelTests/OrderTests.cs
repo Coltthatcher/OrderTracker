@@ -6,17 +6,18 @@ using System;
 namespace OrderTracker.Tests
 {
   [TestClass]
-  public class OrderTests : IDisposable 
+  public class OrderTests //: IDisposable 
   {
 
-    public void Dispose()
+    /*public void Dispose()
     {
       Order.ClearAll();
-    }
+    }*/
     [TestMethod]
     public void OrderConstructor_CreatesInstanceOfOrder_Order()
     {
-    
+      Order newOrder = new Order("test Order", "description", 4, "");
+      Assert.AreEqual(typeof(Vendor), newOrder.GetType());
     }
 
 

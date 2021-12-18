@@ -6,18 +6,18 @@ using System;
 namespace OrderTracker.Tests
 {
   [TestClass]
-  public class VendorTests : IDisposable 
+  public class VendorTests //: IDisposable 
   {
 
-    public void Dispose()
+    /*public void Dispose()
     {
       Vendor.ClearAll();
-    }
+    }*/
     [TestMethod]
     public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
     {
-      //Vendor newVendor = new Vendor("test vendor", "description");
-      //Assert.AreEqual(typeof(Vendor), newVendor.GetType());
+      Vendor newVendor = new Vendor("test vendor", "description");
+      Assert.AreEqual(typeof(Order), newVendor.GetType());
     }
 
   }
