@@ -39,5 +39,25 @@ namespace OrderTracker.Tests
       int result = newVendor.Id;
       Assert.AreEqual(1,result);
     }
+
+    [TestMethod]
+    public void GetAll_ReturnVendorObjects_VendorList()
+    {
+        string description = "no";
+      string name = "go";
+      Vendor newVendor = new Vendor(name, description);
+      int result = newVendor.Id;
+      Assert.AreEqual("string",result);
+    }
   }
 }
+
+/*string description = "description";
+      string description1 = "description1";
+      string name = "name";
+      string name1 = "name1";
+      Vendor newVendor = new Vendor(name, description);
+      Vendor newVendor1 = new Vendor(name1, description1);
+      List<Vendor> newList = new List<Vendor> { newVendor, newVendor1 };
+      List<Vendor> result = Vendor.GetAll();
+      CollectionAssert.AreEqual(newList, result);*/
