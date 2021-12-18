@@ -37,7 +37,7 @@ namespace OrderTracker.Tests
       string name = "go";
       Vendor newVendor = new Vendor(name, description);
       int result = newVendor.Id;
-      Assert.AreEqual(name,result);
+      Assert.AreEqual(1,result);
     }
   }
 }
