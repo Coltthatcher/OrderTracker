@@ -30,5 +30,15 @@ namespace OrderTracker.Tests
 
     }
 
+    [TestMethod]
+    public void GetDescription_ReturnDescription_String()
+    {
+      string Title = "title";
+      string Description = "Description";
+      Order newOrder = new Order("test Order", "description", 4, "");
+      string result = newOrder.Description;
+      Assert.AreEqual(Description, result);
+    }
+    }
+
   }
-}
