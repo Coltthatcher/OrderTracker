@@ -6,13 +6,13 @@ using System;
 namespace OrderTracker.Tests
 {
   [TestClass]
-  public class OrderTests //: IDisposable 
+  public class OrderTests : IDisposable 
   {
 
-    /*public void Dispose()
+    public void Dispose()
     {
       Order.ClearAll();
-    }*/
+    }
     [TestMethod]
     public void OrderConstructor_CreatesInstanceOfOrder_Order()
     {
@@ -20,6 +20,15 @@ namespace OrderTracker.Tests
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
 
+    [TestMethod]
+    public void GetTitle_ReturnTitle_String()
+    {
+      string Title = "Title";
+      Order newOrder = new Order("test Order", "description", 4, "");
+      string result = newOrder.Title;
+      Assert.AreEqual(Title, result);
+
+    }
 
   }
 }

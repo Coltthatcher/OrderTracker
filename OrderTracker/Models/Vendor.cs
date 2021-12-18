@@ -20,6 +20,9 @@ namespace OrderTracker.Models
       Orders = new List<Order>{};
     }
 
-    
+    public static void ClearAll()
+    {
+      _vendors.Clear();
+    }
   }
 }
