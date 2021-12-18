@@ -93,7 +93,18 @@ namespace OrderTracker.Tests
     [TestMethod]
     public void Find_ReturnOrder_Order()
     {
-      
+      string name1 = "name1";
+      string name2 = "name2";
+      string description1 = "description1";
+      string description2 = "description2";
+      int Price1 = 1;
+      int Price2 = 2;
+      string Date1 = "Date";
+      string Date2 = "Date";
+      Order newOrder1 = new Order(name1, description1, Price1, Date1);
+      Order newOrder2 = new Order(name2, description2, Price2, Date2);
+      Order result = Order.Find(3);
+      Assert.AreEqual(newOrder2, result);
     }
 
     }
