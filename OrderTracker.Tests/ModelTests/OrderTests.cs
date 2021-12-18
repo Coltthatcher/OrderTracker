@@ -3,8 +3,10 @@ using OrderTracker.Models;
 using System.Collections.Generic;
 using System;
 
-namespace OrderTracker.Teststatic int Main(string[] args)
+namespace OrderTracker.Tests
 {
+  [Testclass]
+  public class OrderTests : IDisposable
     {
     
     }
