@@ -66,13 +66,9 @@ namespace OrderTracker.Tests
     [TestMethod]
     public void GetAll_ReturnEmptyList_ItemList()
     {
-      string Title = "title";
-      string Description = "Description";
-      int Price = 1;
-      string Date = "april 4th, 2021";
-      Order newOrder = new Order("test Order", "description", 4, "");
-      string result = newOrder.Date;
-      Assert.AreEqual(Date, result);
+      List<Order> newOrder = new List<Order> { };
+      List<Order> result = Order.GetAll();
+      CollectionAssert.AreEqual(newOrder, result);
     
     }
 
