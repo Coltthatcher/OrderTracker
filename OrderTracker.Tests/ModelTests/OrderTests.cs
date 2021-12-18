@@ -46,7 +46,7 @@ namespace OrderTracker.Tests
       string Title = "title";
       string Description = "Description";
       int Price = 1;
-      Order newOrder = new Order("test Order", "description", 4, "");
+      Order newOrder = new Order(Title, Description, Price, "");
       int result = newOrder.Price;
       Assert.AreEqual(Price, result);
     }
