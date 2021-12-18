@@ -1,19 +1,17 @@
 using System.Collections.Generic;
 using System;
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using OrderTracker.Models;
 
-namespace ToDoList.Controllers
+namespace OrderTracker
 {
-  public class CategoriesController : Controller
+  public class VendorController : Controller
   {
-
-    [HttpGet("/categories")]
+    [HttpGet("/vendors")]
     public ActionResult Index()
     {
-      List<Category> allCategories = Category.GetAll();
-      return View(allCategories);
+      List<Vendor> allVendors = Vendor.GetAll();
+      return View(allVendors);
     }
-
-  }
+}
 }

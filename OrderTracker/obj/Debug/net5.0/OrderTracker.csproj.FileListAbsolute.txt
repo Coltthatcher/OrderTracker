@@ -1,0 +1,8 @@
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.csproj.AssemblyReference.cache
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.AssemblyInfoInputs.cache
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.AssemblyInfo.cs
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.csproj.CoreCompileInputs.cache
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.RazorAssemblyInfo.cache
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.RazorAssemblyInfo.cs
