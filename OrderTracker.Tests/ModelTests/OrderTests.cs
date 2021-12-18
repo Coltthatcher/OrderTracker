@@ -17,7 +17,7 @@ namespace OrderTracker.Tests
     public void OrderConstructor_CreatesInstanceOfOrder_Order()
     {
       Order newOrder = new Order("test Order", "description", 4, "");
-      Assert.AreEqual(typeof(Vendor), newOrder.GetType());
+      Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
 
 

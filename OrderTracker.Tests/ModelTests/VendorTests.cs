@@ -16,8 +16,8 @@ namespace OrderTracker.Tests
     [TestMethod]
     public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
     {
-      Vendor newVendor = new Vendor("test vendor", "description");
-      Assert.AreEqual(typeof(Order), newVendor.GetType());
+      Vendor newVendor = new Vendor("Vendor", "description");
+      Assert.AreEqual(typeof(Vendor), newVendor.GetType());
     }
 
   }
