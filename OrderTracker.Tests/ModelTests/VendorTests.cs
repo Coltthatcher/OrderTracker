@@ -80,7 +80,7 @@ namespace OrderTracker.Tests
       string vendorName = "name";
       Vendor newVendor = new Vendor(vendorName, vendorDescription);
       newVendor.AddOrder(newOrder);
-      List<Vendor> result = newVendor.Orders;
+      List<Order> result = newVendor.Orders;
       CollectionAssert.AreEqual(newList, result);
     }
   }
