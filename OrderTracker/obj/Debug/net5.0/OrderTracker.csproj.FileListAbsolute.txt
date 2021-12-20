@@ -35,3 +35,5 @@ C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net
 C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\OrderTracker.csproj.CopyComplete
 C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\Razor\Views\Order\New.cshtml.g.cs
+C:\Users\coltt\OneDrive\Desktop\Ordertracker.Solution\OrderTracker\obj\Debug\net5.0\Razor\Views\Order\Show.cshtml.g.cs
