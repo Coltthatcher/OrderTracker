@@ -1,25 +1,45 @@
-reated By Colton Thatcher
-French Bakery
-Technologies Used
-C#
-dotnet
-VSCODE
-GITBASH
-GITHUB
-Description
-This application is show of TDD with the C# language
+# __
 
-Setup/Installation Requirements
-_Clone the GitHub repository or download and open the Zip on your local machine.
-From the project directory, run dotnet restore in the terminal to load necessary plugins and packages.
-Run dotnet test from the bakery folder to start the tests.
-Known Bugs
-No bugs known at this time
+#### Created By _**Colton Thatcher**_
 
-Future Updates
-__
-License
-MIT Copyright (c) 2021 Colton Thatcher
+#### _French Bakery_
 
-Support and Contact Details
-colt.thatcher303@gmail.com
+## Technologies Used
+
+
+* _C#_
+* _dotnet_
+* _VSCODE_
+* _GITBASH_
+* _GITHUB_
+
+
+## Description
+
+_This application is show of TDD with the C# language_
+
+## Setup/Installation Requirements
+
+* _Clone the GitHub [repository]() or download and open the Zip on your local machine.
+* _From the project directory, run `dotnet restore` in the terminal to load necessary plugins and packages._
+* _Run `dotnet test`  from the bakery.Tests folder to start the tests._
+* _in Bakery run dotent run to get the app up and running_
+
+
+
+
+## Known Bugs
+
+_No bugs known at this time_
+
+## Future Updates
+
+* __
+
+## License
+
+_[MIT](https://opensource.org/licenses/MIT)_
+Copyright (c) _2021_ _Colton Thatcher_
+
+## Support and Contact Details
+* _[colt.thatcher303@gmail.com](colt.thatcher303@gmail.com)_
