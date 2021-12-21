@@ -24,6 +24,7 @@ namespace OrderTracker
     public ActionResult Create(string vendorName,string vendorDescription)
     {
       Vendor newVendor = new Vendor(vendorName, vendorDescription);
+      Console.WriteLine( newVendor);
       return RedirectToAction("Index");
     }
 
@@ -42,12 +43,12 @@ namespace OrderTracker
     public ActionResult Create(int vendorId, string orderTitle, string orderDescription, int orderPrice, string orderDate)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
-      Vendor thisVendor = Vendor.Find(vendorId);
+      Vendor singleVendor = Vendor.Find(vendorId);
       Order newOrder = new Order(orderTitle, orderDescription, orderPrice, orderDate);
-      thisVendor.AddOrder(newOrder);
-      List<Order> vendorOrders = thisVendor.Orders;
+      singleVendor.AddOrder(newOrder);
+      List<Order> vendorOrders = singleVendor.Orders;
       model.Add("Orders", vendorOrders);
-      model.Add("vendor", thisVendor);
+      model.Add("vendor", singleVendor);
       return View("Show", model);
     }
 
