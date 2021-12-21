@@ -47,8 +47,8 @@ namespace OrderTracker
       Order newOrder = new Order(orderTitle, orderDescription, orderPrice, orderDate);
       singleVendor.AddOrder(newOrder);
       List<Order> vendorOrders = singleVendor.Orders;
-      model.Add("Orders", vendorOrders);
-      model.Add("vendor", singleVendor);
+      model.Add("orders", vendorOrders);
+      model.Add("vendors", singleVendor);
       return View("Show", model);
     }
 
